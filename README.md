@@ -1,48 +1,48 @@
-Car Rental System
+# **Car Rental System**
 
-Overview
+_Overview_
 
 The Car Rental System is a web-based application designed to facilitate car rentals for users and provide management tools for administrators. The system is developed using Java with the Spring Boot framework, Hibernate ORM, and MySQL database. The project includes two main modules: the Admin module and the User module.
 
-Features
+_Features_
 
-User Module
+**User Module**
 
-Browse Cars: View available cars for rent.
+**Browse Cars**: View available cars for rent.
 
-Search Cars: Search for cars based on criteria such as model, type, and availability.
+**Search Cars**: Search for cars based on criteria such as model, type, and availability.
 
-Book Cars: Rent a car by selecting the desired vehicle and rental period.
+**Book Cars**: Rent a car by selecting the desired vehicle and rental period.
 
-User Registration and Login: Create a new account or log in to an existing account.
+**User Registration and Login**: Create a new account or log in to an existing account.
 
-View Booking History: Check previous and upcoming bookings.
+**View Booking History:** Check previous and upcoming bookings.
 
-Admin Module
+**Admin Module
+**
+**Add Cars**: Add new cars to the inventory.
 
-Add Cars: Add new cars to the inventory.
+**Update Car Details**: Edit details of existing cars (e.g., price, availability, specifications).
 
-Update Car Details: Edit details of existing cars (e.g., price, availability, specifications).
+**Delete Cars**: Remove cars from the inventory.
 
-Delete Cars: Remove cars from the inventory.
+**View Bookings**: Access and manage all user bookings.
 
-View Bookings: Access and manage all user bookings.
+**Generate Reports**: View reports for car usage and revenue.
 
-Generate Reports: View reports for car usage and revenue.
+_Technology Stack_
 
-Technology Stack
+**Backend**: Java, Spring Boot
 
-Backend: Java, Spring Boot
+**Database**: MySQL
 
-Database: MySQL
+**ORM**: Hibernate
 
-ORM: Hibernate
+**Frontend:** Angular (optional, depending on integration)
 
-Frontend: Angular (optional, depending on integration)
+**Build Tool**: Maven
 
-Build Tool: Maven
-
-Prerequisites
+_Prerequisites_
 
 Java 17 or later
 
